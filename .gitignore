@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Large rasters — download from the BhuMe "Get started" page (see README)
+data/**/imagery.tif
+data/**/boundaries.tif
+
+# Generated previews
+day1_patch.png
+day2_drift.png
+day3_corrections.png
